@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="copernico">
+    <serverData>
+      <paths name="copernico">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/aplicaciones/pruebaTomcat" local="$PROJECT_DIR$" web="/aplicaciones/pruebaTomcat" />
+            <mapping deploy="/aplicaciones/pruebaTomcat/src/main" local="$PROJECT_DIR$/src/main" web="/aplicaciones/pruebaTomcat/src/main" />
+            <mapping deploy="/aplicaciones/pruebaTomcat/src/test" local="$PROJECT_DIR$/src/test" web="/aplicaciones/pruebaTomcat/src/test" />
+            <mapping deploy="/aplicaciones/pruebaTomcat/grails-app" local="$PROJECT_DIR$/grails-app" web="/aplicaciones/pruebaTomcat/grails-app" />
+            <mapping deploy="/aplicaciones/pruebaTomcat/src/integration-test" local="$PROJECT_DIR$/src/integration-test" web="/aplicaciones/pruebaTomcat/src/integration-test" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
