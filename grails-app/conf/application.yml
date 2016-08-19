@@ -30,7 +30,10 @@ environments:
     production:
         dataSource:
             dbCreate: update
-            url: jdbc:h2:./prodDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE
+            driverClassName: org.postgresql.Driver
+            username: postgres
+            password: Sisko.2016!
+            url: jdbc:postgresql://10.12.21.14:5432/pruebaTomcat_prod
             properties:
                 jmxEnabled: true
                 initialSize: 5
